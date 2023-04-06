@@ -12,12 +12,14 @@ I made some change base on this source code: https://github.com/ethereum/go-ethe
 	- ChainId: 2023
 	- RPC: https://home.nhimapp.com
 	
-2. Example contract to make http call with GET method. Please note that:
+2. Example deployed smart contract: 0x3A38F4b512a363EA36DFCF21D83ea1793Ad75b90
+	
+3. Example contract to make http call with GET method. Please note that:
 	- The response from a http call will be cached on Blockchain in 24 hours base on the requested URL. So that you cannot see any change in 24 hours after making your first request. To see different thing, please use another URL.
 	- The new Blockchain creates 300ms for timeout when making HTTP call. So please make sure that the API return data in less than 300ms to a client in Hanoi, Vietnam.
 	- Length of URL must be less than 220 characters
 	- Length of API response must be less than 220 characters 
 	
-3. Account Test:
+4. Account Test:
 	- Private key: 55bb7cf4d8e193aba0a02f8fba72ad6fd64c458b72d69f718d028d627d55eedd (1000 ETH)
 
